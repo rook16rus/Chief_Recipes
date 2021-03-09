@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Spectral";
+    src: url("../fonts/Spectral-light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url("../fonts/Spectral-medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url(../fonts/Spectral-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url(../fonts/Spectral-italic.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url(../fonts/Spectral-extralight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url(../fonts/Spectral-lightitalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Spectral", "Georgia", serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #142E2C;
+    background-color: #F5F1EE;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    padding: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.section-title {
+    margin: 0;
+
+    font-weight: 200;
+    font-size: 160px;
+    letter-spacing: 0.2em;
+    color: #C5AF96;
+    text-transform: uppercase;
+}
+
+.main-header {
+    padding-bottom: 140px;
+    background-color: #1E4542;
+
+    color: #F5F1EE;
+}
+
+.header-row{
+    display: flex;
+    position: relative;
+}
+
+.header-row:first-child {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.header-row:last-child {
+    justify-content: flex-end;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 113px 0 0 70px;
+
+    font-weight: 200;
+    font-size: 130px;
+    line-height: 169px;
+    text-transform: capitalize;
+}
+
+.header-description {
+    position: absolute;
+    top: 176px;
+    right: 0;
+
+    margin: 0;
+    color: #C5AF96;
+    line-height: 32px;
+    text-transform: capitalize;
+
+    order: -1;
+}
+
+.header-lead {
+    display: flex;
+    flex-direction: column;
+    margin: 68px 50px 0 0;
+
+    font-style: italic;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 83px;
+}
+
+.header-lead span {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    color: #C5AF96;
+    text-align: right;
+    margin-right: -15px;
+}
