@@ -551,13 +551,13 @@ h1 {
 
 .interview {
     padding-bottom: 210px;
-    color: #F5F1EE;
 }
 
 .biography {
     padding-top: 130px;
     padding-bottom: 80px;
     background-color: #142E2C;
+    color: #F5F1EE;
 }
 
 .biography-wrapper {
@@ -597,14 +597,111 @@ h1 {
 }
 
 
-.biography figure {
+.interview figure {
     margin: 0;
 }
 
-.biography figcaption {
+.interview figcaption {
     margin: 0 0 15px;
 
     font-weight: 300;
     font-style: italic;
     text-align: center;
+}
+
+.interview-content {
+    column-count: 2;
+    margin-top: 80px;
+}
+
+.interview-content .text-author {
+    margin: 0 0 10px;
+
+    font-weight: 500;
+    font-size: 26px;
+    font-variant: small-caps;
+    line-height: 33px;
+
+}
+
+.interview-content span.text-author  {
+    display: inline-block;
+    margin: 0 45px 0 0;
+}
+
+.interview-content p {
+    margin: 10px 0 28px;
+}
+
+.border-aside {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #C5AF96;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+.border-aside p {
+    margin: 0 0 20px;
+}
+
+.food-quality-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 740px;
+}
+
+.food-quality-item {
+    position: relative;
+    margin-right: 40px;
+    text-transform: lowercase;
+}
+
+.food-quality-item s {
+    text-decoration: none;
+}
+
+.food-quality-item::before, .food-quality-item::after {
+    content: "";
+
+    width: 60px;
+    border-top: 2px solid #1E4542;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+
+}
+
+.food-quality-item::before {
+    transform: rotate(45deg);
+}
+
+.food-quality-item::after {
+    transform: rotate(-45deg);
+}
+
+.food-quality-item:last-child {
+    margin-right: 0;
+}
+
+.interview-content figure {
+    margin-bottom: 105px;
+}
+
+.interview-content figure:last-of-type {
+    margin-bottom: 0;
+    margin-top: 50px;
+    float: right;
 }
