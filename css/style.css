@@ -556,7 +556,7 @@ h1 {
 .biography {
     padding-top: 130px;
     padding-bottom: 80px;
-    background-color: #142E2C;
+    background-color: #1E4542;
     color: #F5F1EE;
 }
 
@@ -704,4 +704,83 @@ h1 {
     margin-bottom: 0;
     margin-top: 50px;
     float: right;
+}
+
+.subscribe {
+    padding: 180px 0 210px;
+    background-color: #1E4542;
+    color: #F5F1EE;
+}
+
+.subscribe-title {
+    margin: 0 0 20px;
+
+    font-size: 80px;
+    line-height: 104px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.subscribe p {
+    margin: 20px 0 100px;
+
+    font-style: italic;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    margin: 0 100px;
+}
+
+.subscribe-mail {
+    width: 60%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    font-size: 32px;
+    line-height: 41px;
+    color: #F5F1EE;
+    background-color: transparent;
+    border: 1px solid #C5AF96;
+    outline: none;
+}
+
+.subscribe-mail::-webkit-input-placeholder{
+    font-size: 32px;
+    line-height: 41px;
+    color: #F5F1EE;
+}
+
+.subscribe-button {
+    width: 40%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background-color: #C5AF96;
+    outline: none;
+    border: none;
+
+    font-size: 32px;
+    line-height: 41px;
+    color: #142E2C;
+}
+
+.main-footer {
+    padding: 30px 0;
+    border-top: 1px solid rgba(245, 241, 238, 0.2);
+    background-color: #1E4542;
+
+    font-size: 18px;
+    line-height: 23px;
+    color: #F5F1EE;
+}
+
+.main-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer p {
+    margin: 0;
 }
