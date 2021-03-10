@@ -73,6 +73,7 @@ body {
     letter-spacing: 0.2em;
     color: #C5AF96;
     text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 h3  {
@@ -548,3 +549,62 @@ h1 {
     padding: 0 25px;
 }
 
+.interview {
+    padding-bottom: 210px;
+    color: #F5F1EE;
+}
+
+.biography {
+    padding-top: 130px;
+    padding-bottom: 80px;
+    background-color: #142E2C;
+}
+
+.biography-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.biography-content {
+    width: 700px;
+    margin-right: 70px;
+}
+
+.interview h3 {
+    margin: 0 0 15px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: normal;
+    font-variant: small-caps;
+}
+
+.biography-description {
+    max-width: 485px;
+    margin: 15px 0 40px;
+
+    font-weight: 300;
+    font-size: 32px;
+    line-height: normal;
+}
+
+.first-lettered::first-letter {
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 31px;
+    color: #C5AF96;
+}
+
+
+.biography figure {
+    margin: 0;
+}
+
+.biography figcaption {
+    margin: 0 0 15px;
+
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
